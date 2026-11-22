@@ -1,0 +1,192 @@
+[
+ {
+  "id": "6019ef21",
+  "path": "C:\\Users\\NLN\\.gemini\\antigravity\\scratch\\style_mate\\style-mate-ai-redesign-main\\wardrobe\\6019ef21.jpg",
+  "type": "Tshirts",
+  "slot": "top",
+  "usage": "Sports",
+  "conf": 0.9825818253577232,
+  "worn": 0,
+  "color": "beige",
+  "neutral": true,
+  "hue": 0.07619047619047621,
+  "rgb": [
+   219,
+   200,
+   184
+  ],
+  "gender": "Unisex",
+  "name": "Tshirts"
+ },
+ {
+  "id": "896c08cc",
+  "path": "C:\\Users\\NLN\\.gemini\\antigravity\\scratch\\style_mate\\style-mate-ai-redesign-main\\wardrobe\\896c08cc.jpg",
+  "type": "Flats",
+  "slot": "shoes",
+  "usage": "Casual",
+  "conf": 0.7176683243072914,
+  "worn": 0,
+  "color": "black",
+  "neutral": true,
+  "hue": 0.0507246376811594,
+  "rgb": [
+   33,
+   17,
+   10
+  ],
+  "gender": "Unisex",
+  "name": "Flats"
+ },
+ {
+  "id": "c58600e1",
+  "path": "C:\\Users\\NLN\\.gemini\\antigravity\\scratch\\style_mate\\style-mate-ai-redesign-main\\wardrobe\\c58600e1.jpg",
+  "type": "Women Flats",
+  "slot": "shoes",
+  "usage": "Casual",
+  "conf": 1.0,
+  "worn": 0,
+  "color": "gray",
+  "neutral": true,
+  "hue": 0.16666666666666666,
+  "rgb": [
+   187,
+   187,
+   184
+  ],
+  "gender": "Unisex",
+  "name": "Women Flats"
+ },
+ {
+  "id": "00d7549b",
+  "path": "C:\\Users\\NLN\\.gemini\\antigravity\\scratch\\style_mate\\style-mate-ai-redesign-main\\wardrobe\\00d7549b.jpg",
+  "type": "Dresses",
+  "slot": "dress",
+  "usage": "Party",
+  "conf": 0.7939216868452467,
+  "worn": 0,
+  "color": "black",
+  "neutral": true,
+  "hue": 0.9814814814814815,
+  "rgb": [
+   43,
+   7,
+   11
+  ],
+  "gender": "Women",
+  "name": "Dresses"
+ },
+ {
+  "id": "a3dbacaf",
+  "path": "C:\\Users\\NLN\\.gemini\\antigravity\\scratch\\style_mate\\style-mate-ai-redesign-main\\wardrobe\\a3dbacaf.jpg",
+  "type": "Dresses",
+  "slot": "dress",
+  "usage": "Party",
+  "conf": 0.7909831374222057,
+  "worn": 0,
+  "color": "beige",
+  "neutral": true,
+  "hue": 0.10344827586206888,
+  "rgb": [
+   213,
+   202,
+   184
+  ],
+  "gender": "Women",
+  "name": "Dresses"
+ },
+ {
+  "id": "fc5926c3",
+  "path": "C:\\Users\\NLN\\.gemini\\antigravity\\scratch\\style_mate\\style-mate-ai-redesign-main\\wardrobe\\fc5926c3.jpg",
+  "type": "Kurtas",
+  "slot": "top",
+  "usage": "Ethnic",
+  "conf": 0.9838712622964839,
+  "worn": 0,
+  "color": "red",
+  "neutral": false,
+  "hue": 0.9845679012345679,
+  "rgb": [
+   141,
+   87,
+   92
+  ],
+  "gender": "Women",
+  "name": "Kurtas"
+ },
+ {
+  "id": "0a695f17",
+  "path": "C:\\Users\\NLN\\.gemini\\antigravity\\scratch\\style_mate\\style-mate-ai-redesign-main\\wardrobe\\0a695f17.jpg",
+  "type": "Shirts",
+  "slot": "top",
+  "usage": "Casual",
+  "conf": 0.6456892643315234,
+  "worn": 0,
+  "color": "gray",
+  "neutral": true,
+  "hue": 0.5,
+  "rgb": [
+   214,
+   215,
+   215
+  ],
+  "gender": "Men",
+  "name": "Shirts"
+ },
+ {
+  "id": "a370cfa4",
+  "path": "C:\\Users\\NLN\\.gemini\\antigravity\\scratch\\style_mate\\style-mate-ai-redesign-main\\wardrobe\\a370cfa4.jpg",
+  "type": "Trousers",
+  "slot": "bottom",
+  "usage": "Casual",
+  "conf": 0.611192840740057,
+  "worn": 0,
+  "color": "beige",
+  "neutral": true,
+  "hue": 0.07575757575757568,
+  "rgb": [
+   165,
+   153,
+   143
+  ],
+  "gender": "Unisex",
+  "name": "Trousers"
+ },
+ {
+  "id": "65fa605d",
+  "path": "C:\\Users\\NLN\\.gemini\\antigravity\\scratch\\style_mate\\style-mate-ai-redesign-main\\wardrobe\\65fa605d.jpg",
+  "type": "Tops",
+  "slot": "top",
+  "usage": "Ethnic",
+  "conf": 0.4838189211588726,
+  "worn": 0,
+  "color": "beige",
+  "neutral": true,
+  "hue": 0.09139784946236557,
+  "rgb": [
+   224,
+   210,
+   193
+  ],
+  "gender": "Women",
+  "name": "Tops"
+ },
+ {
+  "id": "cbb4ec53",
+  "path": "C:\\Users\\NLN\\.gemini\\antigravity\\scratch\\style_mate\\style-mate-ai-redesign-main\\wardrobe\\cbb4ec53.jpg",
+  "type": "Shirts",
+  "slot": "top",
+  "usage": "Formal",
+  "conf": 0.5281432214774029,
+  "worn": 0,
+  "color": "red",
+  "neutral": false,
+  "hue": 0.9791666666666666,
+  "rgb": [
+   49,
+   25,
+   28
+  ],
+  "gender": "Women",
+  "name": "Shirts"
+ }
+]

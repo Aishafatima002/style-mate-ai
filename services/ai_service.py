@@ -653,8 +653,19 @@ def list_wardrobe_items() -> List[Dict[str, Any]]:
         # Normalize cross-platform Windows/Mac backslashes
         raw_path = str(item.get("path", "")).replace("\\", "/")
         p_obj = Path(raw_path)
-        if not p_obj.is_absolute():
-            p_obj = _ROOT_DIR / raw_path
+        if not p_obj.exists():
+            # Robust cross-platform resolution for Linux/Streamlit Cloud
+            fname = Path(raw_path).name
+            candidate = _ROOT_DIR / "wardrobe" / fname
+            if candidate.exists():
+                p_obj = candidate
+            elif item.get("id"):
+                candidate_id = _ROOT_DIR / "wardrobe" / f"{item['id']}.jpg"
+                if candidate_id.exists():
+                    p_obj = candidate_id
+            elif not p_obj.is_absolute():
+                p_obj = _ROOT_DIR / raw_path
+
         item["resolved_path"] = str(p_obj)
         item["file_exists"] = p_obj.exists()
 

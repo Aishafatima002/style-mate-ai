@@ -20,8 +20,22 @@ import streamlit as st
 @st.cache_data(max_entries=1500, show_spinner=False)
 def get_crisp_image_base64(image_path: str, target_width: int = 240, target_height: int = 320) -> str:
     """Load image from disk, apply high-quality Lanczos super-sampling if thumbnail, and return JPEG base64."""
-    if not os.path.exists(image_path):
+    if not image_path:
         return ""
+
+    if not os.path.exists(image_path):
+        # Cross-platform fallback for Windows-saved paths on Linux Streamlit Cloud
+        fname = Path(str(image_path).replace("\\", "/")).name
+        root = Path(__file__).resolve().parent.parent.parent
+        found = False
+        for sub in ("wardrobe", "catalog/images"):
+            cand = root / sub / fname
+            if cand.exists():
+                image_path = str(cand)
+                found = True
+                break
+        if not found:
+            return ""
 
     try:
         with Image.open(image_path) as im:
